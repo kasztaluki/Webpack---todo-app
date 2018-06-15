@@ -49,13 +49,5 @@ module.exports = {
             })
           ]
  }
-  console.log('NODE_ENV:', env);
 
-    // if (env === 'production') {
-    // plugins.push(
-    //     new webpack.optimize.UglifyJsPlugin(),
-    //     new OptimizeJsPlugin({
-    //       sourceMap: false
-    //     })
-    //   );
-    // }
+  console.log('NODE_ENV:', env);
